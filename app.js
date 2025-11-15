@@ -487,7 +487,7 @@ const messageText = `
 <code>╭────────────────────╮</code>
 👥 <b>Users:</b> ${jumlahPengguna}  
 ⏱️ <b>Latency:</b> ${latency} ms  
-👦 <b>Edited by 1FORCR</b>
+👦 <b>Edited by KETAN</b>
 <code>╰────────────────────╯</code>
 `;
   
@@ -1182,8 +1182,8 @@ bot.action('topup_manual', async (ctx) => {
       `📲 *Top Up Saldo Manual via QRIS*\n\n` +
       `💬 Silakan transfer menggunakan QRIS di atas.\n\n` +
       `Setelah transfer, kirim bukti pembayaran ke admin:\n` +
-      `🧑‍💻 @MYCAN20\n` +
-      `atau hubungi via WhatsApp: [Klik di sini](http://wa.me/6289527159281)\n\n` +
+      `🧑‍💻 @kr2k3n\n` +
+      `atau hubungi via WhatsApp: [Klik di sini](http://wa.me/6282397803813)\n\n` +
       `📝 *Kirim bukti pembayaran dan sertakan format pesan seperti ini:*\n` +
       `\`\`\`\nSaya sudah top up via QRIS min dan ini ID Telegram saya ${ctx.from.id}\n\`\`\`\n\n` +
       `_Pastikan nominal sesuai dengan saldo yang ingin ditambahkan._`;
@@ -1197,7 +1197,7 @@ bot.action('topup_manual', async (ctx) => {
         }
       );
     } else {
-      await ctx.reply('⚠️ QRIS belum diunggah oleh admin. Silakan hubungi @MYCAN20.');
+      await ctx.reply('⚠️ QRIS belum diunggah oleh admin. Silakan hubungi @kr2k3n.');
     }
   } catch (err) {
     logger.error('❌ Error di topup_manual:', err.message);
